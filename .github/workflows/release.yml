@@ -2,10 +2,6 @@ name: Release Obsidian plugin
 
 on:
   workflow_dispatch:
-    inputs:
-      tags:
-        required: true
-        type: string
   push:
     tags:
       - "*"
