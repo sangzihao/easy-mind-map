@@ -1,6 +1,11 @@
 name: Release Obsidian plugin
 
 on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        required: false
+        type: boolean
   push:
     tags:
       - "*"
