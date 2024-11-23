@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       tags:
-        required: false
+        required: true
         type: boolean
   push:
     tags:
