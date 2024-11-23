@@ -6,3 +6,7 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+/*  隐藏工具栏中的链接，仅显示图片链接 */
+.mm-toolbar > .mm-toolbar-brand > span {
+    display: none;
+}
