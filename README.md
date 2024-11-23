@@ -1,0 +1,2 @@
+# easy-mind-map
+Obsidian插件，集成markmap到obsidian，现在你可以通过在Obsidian文档中通过代码块的方式使用markdown的语法创建思维导图
